@@ -1,3 +1,4 @@
+export{ };
 // TODO  根据输入的内容返回最合适的正则表达式
 // 正则的几种匹配格式数据结构
 
@@ -8,3 +9,5 @@ const patternGuess = (input : string) => {
 
 
 }
+
+module.exports = patternGuess;
